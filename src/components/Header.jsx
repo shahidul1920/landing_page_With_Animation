@@ -2,20 +2,20 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='headerSection'>
-      <div className="container mx-auto">
+    <div className='headerSection py-4 px-2'>
+      <div className="container mx-auto flex justify-between">
         <div className="logo">
-            <img src="https://d13pvy8xd75yde.cloudfront.net/global/x_new/logo.svg" alt="" />
+            <img className='max-w-[120px]' src="https://d13pvy8xd75yde.cloudfront.net/global/x_new/logo.svg" alt="" />
         </div>
         <div className="menu">
-            <ul>
+            <ul className='flex gap-4 items-center'>
                 <li>Phone</li>
                 <li>Laptop</li>
                 <li>Accessories</li>
             </ul>
         </div>
         <div className="info">
-            <ul>
+            <ul className='flex gap-4 items-center'>
                 <li>Community</li>
                 <li>Buy Now</li>
                 <li>Login</li>
