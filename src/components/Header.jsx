@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='headerSection py-4 px-2'>
+    <div className='headerSection py-4 px-2 sticky'>
       <div className="container mx-auto flex justify-between">
         <div className="logo">
             <img className='max-w-[120px]' src="https://d13pvy8xd75yde.cloudfront.net/global/x_new/logo.svg" alt="" />
