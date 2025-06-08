@@ -2,13 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-[100%] h-screen relative">
+    <div className="w-[100%] h-[400px] md:h-screen relative">
       <img
         src="https://d13pvy8xd75yde.cloudfront.net/global/tablets/megabook-k16s-amd/sec1_bg_pc.png"
-        className="absolute inset-0 z-10"
+        className="absolute z-10 w-full h-full object-cover"
         alt=""
       />
-      <div className="container relative z-20 mx-auto size-full">
+      <div className="container relative z-20 mx-auto size-full px-3 md:px-6 xl:px-0">
         <div className="size-full gap-4 flex flex-col justify-center">
           <div className="models flex gap-2">
             <img
@@ -27,8 +27,7 @@ const Hero = () => {
               See Bigger, Sound louder.
             </h1>
             <h3 className="md:text-2xl xl:text-3xl font-medium">
-              {" "}
-              16:10 Wide Screen 300% Speaker Louder Mega Performance{" "}
+              16:10 Wide Screen 300% Speaker Louder Mega Performance
             </h3>
           </div>
         </div>
