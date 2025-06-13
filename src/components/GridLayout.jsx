@@ -6,7 +6,7 @@ const GridLayout = () => {
       <div className="container mx-auto">
         <div className="left"></div>
         <div className="right max-w-[460px] overflow-hidden">
-          <div className="item item1 w-full p-6 bg-white shadow-2xl">
+          <div className="item item1 w-full p-6 bg-white rounded-xl">
             <div className="title mb-4">
               <h3 className="text-3xl font-bold">AMD Ryzen 5 7430U</h3>
               <p className="text-[18px]">
@@ -44,8 +44,21 @@ const GridLayout = () => {
             </div>
           </div>
 
-          <div className="item item2"></div>
-          <div className="item item3"></div>
+          <div className="item item2 w-full p-6 bg-white mt-6 grid grid-cols-2 items-center rounded-xl">
+            <div className="title">
+              <h3 className="text-3xl font-bold">Expandable Memory</h3>
+              <p className="text-[18px]">Up to 32GB</p>
+            </div>
+            <div className="imag overflow-hidden">
+              <img className="h-[120px] object-cover"
+                src="https://d13pvy8xd75yde.cloudfront.net/global/ru/megabook/k16/sec2_11.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="item item3 w-full p-6 bg-white shadow-2xl mt-6">
+
+          </div>
         </div>
       </div>
     </section>
