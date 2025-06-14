@@ -22,7 +22,7 @@ const GridLayout = () => {
               </div>
             </div>
             <div className="mid min-w-[full] xl:min-w-[560px] bg-amber-300">
-helo
+              hello
             </div>
           </div>
           <div className="bottom-top"></div>
